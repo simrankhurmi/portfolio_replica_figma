@@ -1,33 +1,7 @@
-import React from "react";
-import client1 from "../assets/images/image 6.png";
-import ContactForm from "./ContactForm";
 
-const testimonials = [
-  {
-    id: 1,
-    text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-    name: "Client Name",
-    image: client1,
-  },
-  {
-    id: 2,
-    text: "Consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-    name: "Client Name",
-    image: client1,
-  },
-  {
-    id: 3,
-    text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-    name: "Client Name",
-    image: client1,
-  },
-  {
-    id: 4,
-    text: "Consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-    name: "Client Name",
-    image: client1,
-  },
-];
+import ContactForm from "../components/ContactForm";
+
+
 
 const GetInTouch = () => {
   return (

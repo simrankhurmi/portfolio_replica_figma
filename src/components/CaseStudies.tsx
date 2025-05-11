@@ -1,4 +1,4 @@
-import React from 'react';
+
 import caseImg from '../assets/images/image 2.png';
 import caseImg2 from '../assets/images/Mask group.png';
 import caseImg3 from '../assets/images/image 3.png';

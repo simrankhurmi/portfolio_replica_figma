@@ -1,4 +1,4 @@
-import React from 'react'
+
 import { FaArrowRight } from "react-icons/fa";
 import caseImg from '../assets/images/img-work1.png';
 import caseImg2 from '../assets/images/img-work2.png';

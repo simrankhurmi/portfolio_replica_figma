@@ -1,4 +1,5 @@
-import React, { useState } from "react";
+import { useState } from "react";
+
 
 const ContactForm = () => {
   const [formData, setFormData] = useState({
@@ -75,7 +76,7 @@ const ContactForm = () => {
             required
             placeholder="Enter your message"
             className="w-full p-3  bg-[#fff] text-[#333]  rounded-md border border-[#9C9C9C] focus:outline-none focus:border-secondary"
-            rows="4"
+            rows={4}
           />
         </div>
 

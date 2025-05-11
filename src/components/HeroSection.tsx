@@ -1,5 +1,5 @@
-import React, { useState } from "react";
-import { FaLinkedin, FaTwitter, FaEnvelope, FaArrowRight, FaBars, FaTimes, FaHtml5, FaCss3Alt, FaReact, FaJs, FaFigma, FaWordpress, FaGitAlt } from "react-icons/fa";
+
+import {  FaArrowRight, FaHtml5, FaCss3Alt, FaReact, FaJs, FaFigma, FaWordpress, FaGitAlt } from "react-icons/fa";
 import image1 from "../assets/images/image 11.png";
 import { SiMaterialdesign, SiTypescript } from "react-icons/si";
 import { TbBrandNextjs, TbBrandTailwind } from "react-icons/tb";

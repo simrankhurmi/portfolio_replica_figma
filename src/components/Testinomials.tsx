@@ -1,4 +1,4 @@
-import React from "react";
+
 import client1 from "../assets/images/image 6.png";
 
 const testimonials = [

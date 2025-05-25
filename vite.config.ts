@@ -4,6 +4,6 @@ import tailwindcss from '@tailwindcss/vite'
 
 // https://vite.dev/config/
 export default defineConfig({
-   base: '/portfolio_replica_figma/',
+   base: '/',
   plugins: [react() , tailwindcss()],
 })

@@ -1,6 +1,7 @@
 name: Deploy Vite App to GitHub Pages
 
 on:
+workflow_dispatch:
   push:
     branches:
       - main  # or your default branch

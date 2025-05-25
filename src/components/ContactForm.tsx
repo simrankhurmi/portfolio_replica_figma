@@ -8,15 +8,15 @@ const ContactForm = () => {
     message: "",
   });
 
-  const handleChange = (e) => {
-    const { name, value } = e.target;
-    setFormData({ ...formData, [name]: value });
+  const handleChange = () => {
+    setFormData({
+      email: "",
+      mobile: "",
+      message: "",
+    })
   };
 
-  const handleSubmit = (e) => {
-    e.preventDefault();
-    // Handle form submission logic (e.g., sending data to an API)
-    console.log("Form submitted with data:", formData);
+  const handleSubmit = () => {
   };
 
   return (
